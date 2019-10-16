@@ -21,10 +21,11 @@ def id_generator
 end
 
 def my_hash_creator(key, value)
-  hash = {
+  second_new_hash = Hash.new
+  second_new_hash = {
     key: value
   }
-  return hash
+  return second_new_hash
 end
 
 def read_from_hash(hash, key)
